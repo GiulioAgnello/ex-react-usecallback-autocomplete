@@ -1,14 +1,10 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-
 export default function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <div className="text-center">
+        <label htmlFor="name">Trova quello che cerchi</label>
+        <input type="text" value="name" placeholder="cerca " />
+      </div>
     </>
   );
 }
